@@ -60,7 +60,7 @@ const servers = [
 		name: 'Birlik',
 		badge: '1.5 Yıldır Kesintisiz Aktif!',
 		description: '1-99 Hard Emek Yapısı',
-		landingHref: 'https://ronin2.com/birlik/landing',
+		landingHref: 'https://ronin2.com/landing',
 		siteHref: 'https://ronin2.com/birlik',
 	},
 ];
@@ -325,8 +325,6 @@ export default function HomePage() {
 			document.removeEventListener('visibilitychange', handleVisibilityChange);
 		};
 	}, []);
-
-	console.log(basePath);
 
 	return (
 		<>
